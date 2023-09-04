@@ -1,0 +1,301 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito";
+  color: #333;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+section {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  float: left;
+  height: 80px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.logo {
+  width: 25%;
+  float: left;
+}
+.logo img {
+  padding: 10px;
+}
+
+.container1 ul li {
+  margin-top: 10px;
+  margin-left: 40px;
+  list-style: none;
+}
+.container1 ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+.hover :hover {
+  color: #ff0000;
+}
+.nav-list {
+  margin-left: 700px;
+  display: flex;
+}
+
+.vision {
+  height: 370px;
+  width: 350px;
+  background: red;
+  color: white;
+  position: relative;
+  right: 118px;
+  border-radius: 5px;
+  margin-top: -100px;
+  box-shadow: 0px 0px 5px #dedede;
+  padding: 60px;
+}
+
+.vision h6 {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.vision h2 {
+  margin-top: -40px;
+}
+.vision p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 2.5;
+  margin-top: 20px;
+}
+
+.vision p a {
+  z-index: 1;
+  font-size: 15px;
+  color: black;
+  background: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Nunito";
+  line-height: 23px;
+}
+.vision p a:hover {
+  /* color: #ff0000; */
+  background-color: #000000;
+  color: #fff;
+}
+
+.simple {
+  float: right;
+  margin-top: -180px;
+  margin-right: 200px;
+}
+.simple1 {
+  display: flex;
+  column-gap: 30px;
+  /* margin-top: 20px; */
+}
+
+.keep p {
+  margin-top: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.enjoy p {
+  margin-top: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.third {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fresh {
+  height: 500px;
+  width: 350px;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #dedede;
+  padding: 60px;
+  background-color: black;
+  color: #fff;
+}
+
+.fresh h6 {
+  font-size: 10px;
+  margin-top: 80px;
+}
+
+.fresh p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 2.5;
+  margin-top: 20px;
+}
+
+.fresh p a {
+  font-size: 15px;
+  color: #fff;
+  background: #ff0000;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 300;
+  font-family: "Nunito";
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+.fresh p a:hover {
+  /* color: #ff0000; */
+  background-color: #ffffff;
+  color: #000000;
+}
+.fourth {
+  margin-top: 60px;
+}
+.simple2 {
+  display: flex;
+  justify-content: space-evenly;
+  color: #333;
+  column-gap: 30px;
+}
+.unique {
+  /* margin-right: -250px; */
+  margin-top: 150px;
+  margin-left: 90px;
+  column-gap: normal;
+}
+
+.thistime {
+  margin-top: 70px;
+  text-align: center;
+  color: #000000;
+}
+
+.thistime h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 86px;
+  color: #000000;
+}
+
+.thistime {
+  text-align: center;
+  color: #333;
+}
+
+.thistime h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 86px;
+}
+
+.thistime {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.thistime p {
+  line-height: 2;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.bi {
+  color: gray;
+}
+.thistime p a {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  background: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 300;
+  font-family: "Nunito";
+}
+
+.thistime p a:hover {
+  /* color: #ff0000; */
+  background-color: #ff0000;
+}
+footer {
+  color: #fff;
+  line-height: 1.5;
+}
+.foot {
+  width: 32%;
+  float: left;
+  margin-right: 10px;
+  border-top: 1px solid #4a4a4a;
+}
+footer h4 {
+  margin-top: 50px;
+}
+.ft {
+  background: #161616;
+  float: left;
+  height: 100px;
+  padding: 10px 20px;
+}
+.overlap {
+  width: 65%;
+  height: 130px;
+  background-color: red;
+  margin-top: -120px;
+  margin-left: -20px;
+}
+.overlap1 {
+  display: flex;
+  float: right;
+}
+.overlap1 h1 {
+  color: white;
+  margin-top: 50px;
+}
+.btn {
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 38px;
+  margin-right: 60px;
+  width: 150px;
+  height: 50px;
+  color: black;
+  border: none;
+  background: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 300;
+}
+footer h1 {
+  font-size: 33px;
+}
+
+.arrow {
+  margin-top: 500px;
+  color: #ff0000;
+}
+
+.btn:hover {
+  /* color: #ff0000; */
+  background-color: #000000;
+  color: #fff;
+}

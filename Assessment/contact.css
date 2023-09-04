@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  margin-top: 20px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  width: 100%;
+  float: left;
+  height: 80px;
+  background: white;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 25%;
+  float: left;
+}
+.logo img {
+  padding: 10px;
+}
+
+.container1 ul li {
+  margin-top: 20px;
+  margin-left: 40px;
+  list-style: none;
+}
+.container1 ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav-list {
+  margin-left: 700px;
+  display: flex;
+}
+.hover :hover {
+  color: #ff0000;
+}
+.shy h1 {
+  margin-left: 80px;
+  font-size: 70px;
+  font-weight: bold;
+}
+.moment {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  float: left;
+}
+
+.momentb {
+  margin-top: 60px;
+  width: 35%;
+  float: left;
+  background: #e5ebf0;
+  height: 500px;
+}
+
+.moment h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 82px;
+  color: white;
+}
+
+.together {
+  line-height: 2;
+  z-index: 1;
+  height: 500px;
+  width: 500px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  right: 118px;
+  float: right;
+  border-radius: 5px;
+  top: -650px;
+  box-shadow: 0px 0px 5px #dedede;
+  padding: 60px 30px 60px 40px;
+}
+
+.together h3 {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.together p {
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.together p a {
+  font-size: 18px;
+  color: #fff;
+  background: #ff0000;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 300;
+  font-family: "Nunito";
+  line-height: 23px;
+}
+.guarantee {
+  float: right;
+  margin-bottom: 130px;
+  line-height: 1.5;
+  margin-right: -300px;
+}
+.guarantee h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: rgb(255, 39, 75);
+}
+.far {
+  margin-top: 10px;
+  font-weight: bold;
+  line-height: 2;
+  font-size: 17px;
+}
+.small {
+  margin-top: 10px;
+  line-height: 2;
+}
+.image1 {
+  position: relative;
+}
+.img img {
+  width: 100%;
+  height: 800px;
+}
+.forms1 {
+  position: absolute;
+  margin-top: -870px;
+  margin-left: 650px;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background: white;
+  width: 45%;
+}
+.forms {
+  margin-top: 40px;
+  margin-left: 60px;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding: 15px;
+  background-color: white;
+}
+
+.forms-cont {
+  padding: 10px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Add a bottom border */
+}
+
+.forms-btn {
+  cursor: pointer;
+  padding: 15px 10px;
+  width: 37%;
+  background-color: rgb(255, 39, 75);
+  color: #fff;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forms-btn:hover {
+  background-color: black;
+  color: #fff;
+}
+.forms-btn1 {
+  cursor: pointer;
+}
+
+.input-data {
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+}
+
+.input-data input,
+.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  outline: none;
+}
+
+.forms1 p {
+  margin-top: 40px;
+  margin-left: 60px;
+  color: rgb(92, 92, 92);
+}
+.forms1 h1 {
+  margin-top: 30px;
+  margin-left: 60px;
+  color: black;
+}
+label {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+span {
+  color: rgb(255, 39, 75);
+}
+.fourth {
+  margin-top: 80px;
+  line-height: 2;
+  margin-bottom: 70px;
+}
+.simple2 {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-content: space-evenly;
+  color: #333;
+  column-gap: 30px;
+}
+.unique {
+  transition: transform 0.5s ease-in-out;
+}
+.unique h2 {
+  margin-top: 20px;
+}
+.unique p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+footer {
+  color: #fff;
+  line-height: 2;
+}
+.foot {
+  width: 32%;
+  margin-top: 60px;
+  float: left;
+  margin-right: 10px;
+  border-top: 1px solid #4a4a4a;
+}
+footer h4 {
+  margin-top: 50px;
+}
+.ft {
+  background: #161616;
+  float: left;
+  height: 100px;
+  padding: 10px 20px;
+}
+.overlap {
+  width: 65%;
+  height: 130px;
+  background-color: red;
+  margin-top: -120px;
+  margin-left: -20px;
+}
+.overlap1 {
+  display: flex;
+  float: right;
+}
+.overlap1 h1 {
+  color: white;
+  margin-top: 50px;
+}
+.btn {
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 38px;
+  margin-right: 60px;
+  width: 150px;
+  height: 50px;
+  color: black;
+  border: none;
+  background: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+footer h1 {
+  font-size: 33px;
+}
